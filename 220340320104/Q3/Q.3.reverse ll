@@ -1,0 +1,44 @@
+class Reversell{
+	Node head;
+	class Node head{
+	int  data;
+	Node next;
+	Node(int d){
+	data = d;
+	next = null;
+	}
+	}
+	Node reverse(Node c,Node p){
+	if (c.next ==(null)){
+	head = c;
+	c.next = p;
+	return null;
+	}
+	
+	Node next 1 = c.next
+	c.next = p;
+	reverse(next 1,c);
+	return haed;
+}
+    void printList(Node node){
+	while(node != null){
+	System.out.println(node.data+" ")
+	node = node.next
+	}
+	}
+	public satic void main(string args[]){
+	Reversell ref = new Reversell ();
+	ref.head = new Node(1);
+	
+	ref.head.next.next = new Node(3);
+	ref.head.next.next.next = new Node(4);
+	ref.head.next.next.next.next = new Node(5);
+	
+	System.out.println("original");
+	ref.printList(head);
+	Node res = ref.reverse(head,null);
+	
+	System.out.println("Reversed list");
+	ref.printList(res);
+	}
+	}

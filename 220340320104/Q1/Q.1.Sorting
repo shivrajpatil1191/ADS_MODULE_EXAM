@@ -1,0 +1,27 @@
+class Sorting{
+	static void insertionSort(int n,int [] a1 )
+	for (int i = 1; i<n; ++i){
+	int k = a1[i];
+	int j = i-1;
+	 while (j>=0 &&a1[j] > k){
+	a1[j +1]= a1[j]
+	j = j-1;
+	print Array (a1);
+	}
+	a1[j +1]= k;
+	}
+}
+	static void printArray(int arr[])
+	{
+		int n = aee.length;
+		for(int i = 0; i<n ;++1)
+		System.out.print(arr[i] + "");
+		System.out.println();
+	}
+	public static void main(String args[]){
+	int arr[] = {1,2,4,5,3};
+	insertionSort(5,arr);
+	printArray(arr);
+	}
+	}
+	
